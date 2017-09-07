@@ -1,0 +1,56 @@
+{
+    "GameTime": {
+        "Date": "05/01/2017",
+        "Time": "09:00"
+     },
+    
+    "facilityAddress": {
+       "Address1": "1250 Cadillac Dr",
+       "Address2": "",
+       "coord": [ -73.856077, 40.848447 ],
+       "StateCode": "OH",
+       "zipcode": "10462"
+    },
+
+    "Team1": {
+        "Name" : "Cobras",
+        "Coach1": "Larry Bird",
+        "Coach2": "Magic Johnson",
+        "Score":""
+     },
+     "Team2": {
+        "Name" : "Darkhorse",
+        "Coach1": "Micky Mouse",
+        "Coach2": "Donal Duck",
+        "Score":""
+     },
+
+     "Ref1": {
+        "FirstName" : "Chris",
+        "LastName": "Harrison",
+        "Position": "Middle",
+        "LicenseNumber": "12345756",
+        "LicenseType":"FIFA",
+        "Accepted":"True"
+     },
+     "Ref2": {
+        "FirstName" : "Steve",
+        "LastName": "Harrison",
+        "Position": "AR Bench",
+        "LicenseNumber": "123765756",
+        "LicenseType":"FIFA",
+        "Accepted":"True"
+     },
+
+     "Ref3": {
+        "FirstName" : "Chris",
+        "LastName": "Harrison",
+        "Position": "AR Stands",
+        "LicenseNumber": "123765756",
+        "LicenseType":"FIFA",
+        "Accepted":"True"
+     },
+
+    "fieldNumber" : 7
+    
+  }
