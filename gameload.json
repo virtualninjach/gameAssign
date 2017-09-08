@@ -1,4 +1,4 @@
-{"_id":
+
         {
 
             "GameTime": {
@@ -63,9 +63,8 @@
             "fieldNumber" : 7
     
         }
-},
 
-{"_id": 
+
     {
         "GameTime":{
             "Date": "05/02/2017",
@@ -129,4 +128,3 @@
     "fieldNumber" : 2
     
   }
-}
