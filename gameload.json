@@ -1,56 +1,132 @@
-{
-    "GameTime": {
-        "Date": "05/01/2017",
-        "Time": "09:00"
-     },
+{"_id":
+        {
+
+            "GameTime": {
+                        "Date": "05/01/2017",
+                        "Time": "09:00"
+                    },
+
+            "league":{
+                "leagueName":"Hamilton Say",
+                "leagueContactName":"Dave Smith",
+                "leagueContactEmail":"Dave.Smith@gmail.com",
+                "leaguePhone":"(513) 894-9960"
+                },
     
-    "facilityAddress": {
-       "Address1": "1250 Cadillac Dr",
-       "Address2": "",
-       "coord": [ -73.856077, 40.848447 ],
-       "StateCode": "OH",
-       "zipcode": "10462"
-    },
+            "facilityAddress": {
+                "Address1": "1250 Cadillac Dr",
+                "Address2": "",
+                "coord": [ -73.856077, 40.848447 ],
+                "StateCode": "OH",
+                "zipcode": "10462"
+                },
 
-    "Team1": {
-        "Name" : "Cobras",
-        "Coach1": "Larry Bird",
-        "Coach2": "Magic Johnson",
-        "Score":""
-     },
-     "Team2": {
-        "Name" : "Darkhorse",
-        "Coach1": "Micky Mouse",
-        "Coach2": "Donal Duck",
-        "Score":""
-     },
+            "Team1": {
+                "Name" : "Cobras",
+                "Coach1": "Larry Bird",
+                "Coach2": "Magic Johnson",
+                "Score":""
+                },
+            "Team2": {
+                "Name" : "Darkhorse",
+                "Coach1": "Micky Mouse",
+                "Coach2": "Donal Duck",
+                "Score":""
+                },
 
-     "Ref1": {
-        "FirstName" : "Chris",
-        "LastName": "Harrison",
-        "Position": "Middle",
-        "LicenseNumber": "12345756",
-        "LicenseType":"FIFA",
-        "Accepted":"True"
-     },
-     "Ref2": {
-        "FirstName" : "Steve",
-        "LastName": "Harrison",
-        "Position": "AR Bench",
-        "LicenseNumber": "123765756",
-        "LicenseType":"FIFA",
-        "Accepted":"True"
-     },
+            "Ref1": {
+                "FirstName" : "Chris",
+                "LastName": "Harrison",
+                "Position": "Middle",
+                "LicenseNumber": "12345756",
+                "LicenseType":"FIFA",
+                "Accepted":"True"
+            },
+            "Ref2": {
+                "FirstName" : "Steve",
+                "LastName": "Harrison",
+                "Position": "AR Bench",
+                "LicenseNumber": "123765756",
+                "LicenseType":"FIFA",
+                "Accepted":"True"
+                },
+
+            "Ref3": {
+                "FirstName" : "Chris",
+                "LastName": "Harrison",
+                "Position": "AR Stands",
+                "LicenseNumber": "123765799",
+                "LicenseType":"FIFA",
+                "Accepted":"True"
+                },
+
+            "fieldNumber" : 7
+    
+        }
+},
+
+{"_id": 
+    {
+        "GameTime":{
+            "Date": "05/02/2017",
+            "Time": "09:00"
+        },
+
+        "league":{
+            "leagueName":"Fairfield Say",
+            "leagueContactName":"Larry Fine",
+            "leagueContactEmail":"lfine@gmail.com",
+            "leaguePhone":"(513) 894-2211"
+        },
+    
+        "facilityAddress": {
+            "Address1": "891 Bishop Ave",
+            "Address2": "",
+            "coord": [ -73.856077, 40.848447 ],
+            "StateCode": "OH",
+            "zipcode": "45013"
+        },
+
+        "Team1": {
+            "Name" : "Spartans",
+            "Coach1": "Larry Elder",
+            "Coach2": "Magic Johnson",
+            "Score":""
+        },
+        "Team2": {
+            "Name" : "Pixies",
+            "Coach1": "Mike Miller",
+            "Coach2": "Oliver Stone",
+            "Score":""
+        },
+
+        "Ref1": {
+            "FirstName" : "Chris",
+            "LastName": "Harrison",
+            "Position": "Middle",
+            "LicenseNumber": "00045756",
+            "LicenseType":"FIFA",
+            "Accepted":"True"
+        },
+        "Ref2": {
+            "FirstName" : "Moe",
+            "LastName": "Fine",
+            "Position": "AR Bench",
+            "LicenseNumber": "333365756",
+            "LicenseType":"FIFA",
+            "Accepted":"True"
+        },
 
      "Ref3": {
         "FirstName" : "Chris",
-        "LastName": "Harrison",
+        "LastName": "Larson",
         "Position": "AR Stands",
-        "LicenseNumber": "123765756",
+        "LicenseNumber": "000765756",
         "LicenseType":"FIFA",
         "Accepted":"True"
      },
 
-    "fieldNumber" : 7
+    "fieldNumber" : 2
     
   }
+}
