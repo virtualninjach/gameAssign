@@ -14,3 +14,5 @@ function get-RandomDate()
 
 $rd = get-RandomDate
 $rd
+
+#this is a test comment
