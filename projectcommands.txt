@@ -6,3 +6,6 @@ git
     git add --all
     git commit --all
     git push
+    git pull origin master
+
+    

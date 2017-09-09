@@ -5,12 +5,14 @@
                         "Date": "05/01/2017",
                         "Time": "09:00"
                     },
+            
 
-            "league":{
+            "League":{
                 "leagueName":"Hamilton Say",
                 "leagueContactName":"Dave Smith",
                 "leagueContactEmail":"Dave.Smith@gmail.com",
-                "leaguePhone":"(513) 894-9960"
+                "leaguePhone":"(513) 894-9960",
+                "GameFee":100.00
                 },
     
             "facilityAddress": {
@@ -37,27 +39,46 @@
             "Ref1": {
                 "FirstName" : "Chris",
                 "LastName": "Harrison",
-                "Position": "Middle",
+                "Position": "AR1",
                 "LicenseNumber": "12345756",
-                "LicenseType":"FIFA",
+                "GradeNumber":"7",
                 "Accepted":"True"
             },
             "Ref2": {
                 "FirstName" : "Steve",
                 "LastName": "Harrison",
-                "Position": "AR Bench",
+                "Position": "AR2",
                 "LicenseNumber": "123765756",
-                "LicenseType":"FIFA",
+                "GradeNumber":"16",
                 "Accepted":"True"
                 },
 
             "Ref3": {
                 "FirstName" : "Chris",
                 "LastName": "Harrison",
-                "Position": "AR Stands",
+                "Position": "Center",
                 "LicenseNumber": "123765799",
-                "LicenseType":"FIFA",
+                "Grade":"7",
                 "Accepted":"True"
+                },
+            
+            "Ref4": {
+                    "FirstName" : "Chris",
+                    "LastName": "Harrison",
+                    "Position": "Center",
+                    "LicenseNumber": "123765799",
+                    "Grade":"7",
+                    "Accepted":"True",
+                    "Enabled":"True"
+                    },
+            "Ref5": {
+                "FirstName" : "Chris",
+                "LastName": "Harrison",
+                "Position": "Center",
+                "LicenseNumber": "123765799",
+                "Grade":"7",
+                "Accepted":"True",
+                "Enabled":"True"
                 },
 
             "fieldNumber" : 7
@@ -65,66 +86,4 @@
         }
 
 
-    {
-        "GameTime":{
-            "Date": "05/02/2017",
-            "Time": "09:00"
-        },
-
-        "league":{
-            "leagueName":"Fairfield Say",
-            "leagueContactName":"Larry Fine",
-            "leagueContactEmail":"lfine@gmail.com",
-            "leaguePhone":"(513) 894-2211"
-        },
-    
-        "facilityAddress": {
-            "Address1": "891 Bishop Ave",
-            "Address2": "",
-            "coord": [ -73.856077, 40.848447 ],
-            "StateCode": "OH",
-            "zipcode": "45013"
-        },
-
-        "Team1": {
-            "Name" : "Spartans",
-            "Coach1": "Larry Elder",
-            "Coach2": "Magic Johnson",
-            "Score":""
-        },
-        "Team2": {
-            "Name" : "Pixies",
-            "Coach1": "Mike Miller",
-            "Coach2": "Oliver Stone",
-            "Score":""
-        },
-
-        "Ref1": {
-            "FirstName" : "Chris",
-            "LastName": "Harrison",
-            "Position": "Middle",
-            "LicenseNumber": "00045756",
-            "LicenseType":"FIFA",
-            "Accepted":"True"
-        },
-        "Ref2": {
-            "FirstName" : "Moe",
-            "LastName": "Fine",
-            "Position": "AR Bench",
-            "LicenseNumber": "333365756",
-            "LicenseType":"FIFA",
-            "Accepted":"True"
-        },
-
-     "Ref3": {
-        "FirstName" : "Chris",
-        "LastName": "Larson",
-        "Position": "AR Stands",
-        "LicenseNumber": "000765756",
-        "LicenseType":"FIFA",
-        "Accepted":"True"
-     },
-
-    "fieldNumber" : 2
-    
-  }
+   
