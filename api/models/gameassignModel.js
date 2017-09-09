@@ -16,14 +16,14 @@ var gameSchema = new Schema({
   },
   Created_date: {
     type: Date,
-    default: Date.now
+    default: Date.now()
   },
   status: {
     type: [{
       type: String,
-      enum: ['assigned-pending acceptance', 'accepted', 'game completed']
+      enum: ['assigned-pending', 'accepted', 'game completed']
     }],
-    default: ['assigned-pending acceptance']
+    default: ['assigned-pending']
   }
 });
 

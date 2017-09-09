@@ -8,4 +8,19 @@ git
     git push
     git pull origin master
 
+
+Postman
+    add postman shorcut to ubuntu search
+
+cat > ~/.local/share/applications/postman.desktop <<EOL
+[Desktop Entry]
+Encoding=UTF-8
+Name=Postman
+Exec=postman
+Icon=/opt/Postman/resources/app/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Development;
+EOL
+
     
