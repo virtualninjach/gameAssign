@@ -12,6 +12,7 @@ mongodb
         db.auth("myUserAdmin", "abc123" )
 npm
     npm  init
+    npm start
 
 git
     git add --all
