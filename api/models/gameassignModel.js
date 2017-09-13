@@ -4,27 +4,35 @@ var Schema = mongoose.Schema;
 
 
 var gameSchema = new Schema({
+  Game: {
+    Date: Date,
+    Time: String
+  },
+  Location: {
+    Address1: String,
+    Address2: String,
+    Coor: Coordinates,
+    StateProvidence: String,
+    ZipCode:String,
+    Country:String
+  },
   League: {
-    type: String,
-    required: 'Please enter the leauge name:'
-    
+    Name: String,
+    ContactName1: String,
+    ContactNumber1: String,
+    Fee:String 
+},
+  RefName1: {
+        FirstName: String,
+        LastName: String,
+        Pos: String,
+        LicenseNumber:String,
+        GradeNumber: String
   },
-    RefName: {
-    type: String,
-    required: 'Please enter the ref name:'
-    
-  },
-  Created_date: {
-    type: Date,
-    default: Date.now()
-  },
-  status: {
-    type: [{
-      type: String,
-      enum: ['assigned-pending', 'accepted', 'game completed']
-    }],
-    default: ['assigned-pending']
+  Created_date:Date.now,
+
+  GameAcceptStatus:String
   }
-});
+);
 
 module.exports = mongoose.model('Games', gameSchema);

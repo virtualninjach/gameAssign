@@ -1,6 +1,17 @@
-sudo service mongod start
+robomongo   
+    install 
+        tar -xvzf robomongo-0.9.0-linux-x86_64-0786489.tar.gz
+        mv files and folders into the result folder from extraction operation into folder robomongo under /usr/local/bin
+        sudo mkdir /usr/local/bin/robomongo
+        sudo mv  robomongo-0.9.0-linux-x86_64-0786489/* /usr/local/bin/robomongo
 
-npm  init
+mongodb
+    sudo service mongod start
+    authentication 
+        use admin
+        db.auth("myUserAdmin", "abc123" )
+npm
+    npm  init
 
 git
     git add --all
@@ -10,6 +21,7 @@ git
 
 
 Postman
+    install
     add postman shorcut to ubuntu search
 
 cat > ~/.local/share/applications/postman.desktop <<EOL

@@ -1,0 +1,71 @@
+Ref
+	RefID
+	FirstName
+	LastName
+	LicenseNumber
+	Address1
+	Address2
+	City
+	State
+	Country
+	GroupID
+	GroupAdminFlag
+	
+
+Group
+	GroupID
+	GroupType
+	GroupName
+	
+
+League
+	LeagueID
+	LeagueName
+	LeagueStartDate
+	LeagueEndDate
+	
+
+
+
+Game
+	GameID
+	Team1
+	Team2
+	StartTime
+	EndTime
+	facility
+	field
+	FieldID
+	FacilityID
+
+
+Field
+	FieldID
+	FacilityID
+	field_number
+	FacilityName
+
+Facility
+	FacilityID
+	FacilityAddress1
+	FacilityAddress2
+	FacilityCity
+	FacilityState
+	FacilityCountry
+
+Team
+	TeamID
+	TeamName
+	CoachID
+
+Coach
+	CoachID
+	TeamID
+	CoachRoal
+
+
+	
+	
+
+
+	
