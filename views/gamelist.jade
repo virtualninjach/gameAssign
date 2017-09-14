@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1.
+        Game List
+    ul
+        each game, i in gamelist
+            li
+                a(href="mailto:#{game.League}")= game.League
