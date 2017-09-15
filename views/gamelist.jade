@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    h1.
+        Game List
+    ul
+        each game, i in gamelist
+            
+            div
+                table
+                    thead
+                      tr: th Game Listing
+                    tbody
+                      each game, i in gamelist
+                        tr
+                          td #{game.Game.Date}  
+                          td #{game.Game.Time}
