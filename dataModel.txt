@@ -1,4 +1,15 @@
 Account Setup
+FirstName	LastName	Middle Initial
+Address1	Address2
+City		State		ZipCode
+HomePhone	HomePhoneViewable
+WorkPhone	WorkPhoneViewable
+CellPhone	CellPhoneViewable 	CellPhoneGetSMS
+
+
+Referee flag		Assigner flag 		View only flag		Data Input flag
+
+Account email setup
 	Name of Site	Site URL
 	Time Zone		Sport
 	First Name		Last Name
@@ -10,8 +21,7 @@ Account Setup
 	account url
 	Upgrade to a paid plan url
 
-	Users
-		Referee flag		Assigner flag 		View only flag		Data Input flag
+
 
 Assignments
 	This screen shows your assigned games. 
