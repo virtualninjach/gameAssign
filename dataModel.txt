@@ -1,67 +1,59 @@
+Account Setup
+	Name of Site	Site URL
+	Time Zone		Sport
+	First Name		Last Name
+	email Address1	referral code
+
+	Send email with the following:
+	password setup for account
+	account name gets generated automatically
+	account url
+	Upgrade to a paid plan url
+
+	Users
+		Referee flag		Assigner flag 		View only flag		Data Input flag
+
+Assignments
+	This screen shows your assigned games. 
+	If your assignor has recently assigned you to a game,you will need to "accept" or "decline" the game, which confirms that you can or cannot work 
+	the game. 
+	Declined games remain assigned to you until your assignor removes you from the game.
+	If a game time or venue changes, you'll need to return to the website to re-accept your 
+	changed assignments.
+
+Games
+	Games need the ability to publish and unpublish
+
+Input Fields need to be highlight in forms
+
+
 Ref
-	RefID
-	FirstName
-	LastName
-	LicenseNumber
-	Address1
-	Address2
-	City
-	State
-	Country
-	GroupID
-	GroupAdminFlag
+	RefID			FirstName	LastName
+	LicenseNumber	Address1	Address2
+	City			State		Country
+	GroupID			GroupAdminFlag
 	
 
 Group
-	GroupID
-	GroupType
-	GroupName
+	GroupID		GroupType	GroupName
 	
 
 League
-	LeagueID
-	LeagueName
-	LeagueStartDate
-	LeagueEndDate
+	LeagueID	LeagueName		LeagueStartDate		LeagueEndDate
 	
-
-
-
 Game
-	GameID
-	Team1
-	Team2
-	StartTime
-	EndTime
-	facility
-	field
-	FieldID
-	FacilityID
+	GameID	Team1		Team2	StartTime	EndTime		facility
+	field	FieldID		FacilityID
 
 
-Field
-	FieldID
-	FacilityID
-	field_number
-	FacilityName
+Field	FieldID		FacilityID		field_number	FacilityName
 
-Facility
-	FacilityID
-	FacilityAddress1
-	FacilityAddress2
-	FacilityCity
-	FacilityState
-	FacilityCountry
+Facility	FacilityID		FacilityAddress1	FacilityAddress2
+			FacilityCity	FacilityState		FacilityCountry
 
-Team
-	TeamID
-	TeamName
-	CoachID
+Team		TeamID		TeamName	CoachID
 
-Coach
-	CoachID
-	TeamID
-	CoachRoal
+Coach		CoachID		TeamID		CoachRoal
 
 
 	
