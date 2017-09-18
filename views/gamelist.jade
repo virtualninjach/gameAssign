@@ -4,14 +4,49 @@ block content
     h1.
         Game List
     ul
-        each game, i in gamelist
             
             div
-                table
+                table(border=1)
                     thead
                       tr: th Game Listing
+                      tr
+                          td Date 
+                          td Time
+                          td Address1  
+                          td Address2
+                          td State/Providence  
+                          td Zip Code
+                          td Team 1 ClubName  
+                          td Team 1 Club Division
+                          td Team 1 Club Age
+                          td Team 2 ClubName
+                          td Team 2 Club Division
+                          td Team 2 Club Age  
+                          td Ref 1
+                          td Ref 2
+                          td Ref 3
                     tbody
                       each game, i in gamelist
+                      
+                          
                         tr
                           td #{game.Game.Date}  
                           td #{game.Game.Time}
+                          
+                          td #{game.Location.Address1}  
+                          td #{game.Location.Address2}
+                          td #{game.Location.StateProvidence}  
+                          td #{game.Location.ZipCode}
+                          
+                          td #{game.Team1.ClubName}  
+                          td #{game.Team1.ClubDivision}
+                          td #{game.Team1.ClubAge}  
+                          
+                          td #{game.Team2.ClubName}
+                          td #{game.Team2.ClubDivision}  
+                          td #{game.Team2.ClubAge}
+
+                          td #{game.RefName1.LastName}+", "+#{game.RefName1.FirstName}
+                          td #{game.RefName2.LastName}+", "+#{game.RefName2.FirstName}
+                          td #{game.RefName3.LastName}+", "+#{game.RefName3.FirstName}
+                          

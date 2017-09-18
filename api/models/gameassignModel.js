@@ -16,6 +16,28 @@ var gameSchema = new Schema({
       ZipCode:String,
       Country:String
     },
+    Team1: {
+      ClubName: String,
+      ClubDivision: String,
+      ClubAge: String,
+      Coach1: String,
+      Coach2: String,
+      Coach1Contact: String,
+      Coach2Contact: String,
+      HomeOrVisitor: String,
+      Notes: String
+    },
+    Team2: {
+      ClubName: String,
+      ClubDivision: String,
+      ClubAge: String,
+      Coach1: String,
+      Coach2: String,
+      Coach1Contact: String,
+      Coach2Contact: String,
+      HomeOrVisitor: String,
+      Notes: String
+    },
     League: {
       Name: String,
       Divsion: String,
@@ -40,6 +62,22 @@ var gameSchema = new Schema({
       AcceptanceStatus:String
     },
     RefName3: {
+      FirstName: String,
+      LastName: String,
+      Pos: String,
+      LicenseNumber:String,
+      GradeNumber: String,
+      AcceptanceStatus:String
+    },
+    RefName4: {
+      FirstName: String,
+      LastName: String,
+      Pos: String,
+      LicenseNumber:String,
+      GradeNumber: String,
+      AcceptanceStatus:String
+    },
+    RefName5: {
       FirstName: String,
       LastName: String,
       Pos: String,
