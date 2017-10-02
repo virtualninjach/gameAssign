@@ -1,8 +1,12 @@
 3 Hour Game Block for different facilities from start of previous game unitl
-start of next requested game
+	start of next requested game
+
 Acceptance date needs to be updateable
+
 Default Accept should be within three days of sending assignment
+
 Coaches should not know referee names
+
 Admins should only see status on games and referees
 Assignor desiganted self assign limit for example 10 games
 Assignor creates different referee groups
