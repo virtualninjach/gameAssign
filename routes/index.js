@@ -6,6 +6,16 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
+/* GET home page. */
+router.get('/new_game', function(req, res) {
+  res.render('new_game', { title: 'New Game Entry' });
+});
+
+/* GET home page. */
+router.get('/index', function(req, res) {
+  res.render('index', { title: 'Express' });
+});
+
 /* GET Hello World page. */
 router.get('/helloworld', function(req, res) {
   res.render('helloworld', { title: 'gameAssign Test Page!' });
