@@ -7,7 +7,6 @@ module.exports = function(app) {
     .get(gameList.list_all_games)
     .post(gameList.create_a_game);
 
-
   app.route('/games/:gameId')
     .get(gameList.read_a_game)
     .put(gameList.update_a_game)

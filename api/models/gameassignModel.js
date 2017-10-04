@@ -9,9 +9,11 @@ var gameSchema = new Schema({
       Time: String
     },
     Location: {
+      Name: String,
       Address1: String,
       Address2: String,
       Coord: String,
+      City: String,
       StateProvidence: String,
       ZipCode:String,
       Country:String
