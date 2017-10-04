@@ -1,6 +1,5 @@
 'use strict';
 
-
 var mongoose = require('mongoose'),
   Game = mongoose.model('Games');
 
@@ -21,7 +20,6 @@ exports.create_a_game = function(req, res) {
   });
 };
 
-
 exports.read_a_game = function(req, res) {
   Game.findById(req.params.gameId, function(err, game) {
     if (err)
@@ -29,7 +27,6 @@ exports.read_a_game = function(req, res) {
     res.json(game);
   });
 };
-
 
 exports.update_a_game = function(req, res) {
   game.findOneAndUpdate({_id: req.params.gameId}, req.body, {new: true}, function(err, game) {
@@ -40,7 +37,6 @@ exports.update_a_game = function(req, res) {
 };
 
 exports.delete_a_game = function(req, res) {
-    
     
       game.remove({
         _id: req.params.gameId

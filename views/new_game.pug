@@ -5,20 +5,41 @@ block content
 
   form(method='POST' action='')
     div.form-group
-      label(for='name') Genre:
-      input#name.form-control(type='text', placeholder='Fantasy, Poetry etc.' name='name' value=(undefined===genre ? '' : genre.name))
-      br
-      label(for='name') Genre:
-      input#name.form-control(type='text', placeholder='Fantasy, Poetry etc.' name='name' value=(undefined===genre ? '' : genre.name))
-      br
-      label(for='name') Genre:
-      input#name.form-control(type='text', placeholder='Fantasy, Poetry etc.' name='name' value=(undefined===genre ? '' : genre.name))
-      br
-      label(for='name') Genre:
-      input#name.form-control(type='text', placeholder='Fantasy, Poetry etc.' name='name' value=(undefined===genre ? '' : genre.name))
-      br
-      label(for='name') Genre:
-      input#name.form-control(type='text', placeholder='Fantasy, Poetry etc.' name='name' value=(undefined===genre ? '' : genre.name))
+      table
+        tr
+          td
+            label(for='game_date') Game Date:
+            input#name.form-control(type='text', placeholder='Game Date' name='game_date' value=(undefined===genre ? '' : genre.name))
+          td
+            label(for='game_time') Game Time:
+            input#name.form-control(type='text', placeholder='Game Time' name='game_time' value=(undefined===genre ? '' : genre.name))
+      table
+        tr
+          td
+            label(for='location_name') Location Name :
+            input#name.form-control(type='text', placeholder='Joe Nuxhall Park' name='location_name' value=(undefined===genre ? '' : genre.name))
+          td
+        tr
+          td
+            label(for='location_address1') Address 1:
+            input#name.form-control(type='text', placeholder='1313 Mockingbid Lane' name='location_address1' value=(undefined===genre ? '' : genre.name))
+          td          
+            label(for='location_address2') Address 2:
+            input#name.form-control(type='text', placeholder='Suite 13' name='location_address2' value=(undefined===genre ? '' : genre.name))
+        tr
+          td
+            label(for='city') City:
+            input#name.form-control(type='text', placeholder='Atlanta' name='city' value=(undefined===genre ? '' : genre.name))
+          td
+            label(for='state_providence') State/Providence:
+            input#name.form-control(type='text', placeholder='OH' name='state_providence' value=(undefined===genre ? '' : genre.name))
+        tr
+          td
+            label(for='country') Country:
+            input#name.form-control(type='text', placeholder='United States' name='country' value=(undefined===genre ? '' : genre.name))
+          td
+            
+      
       br
       label(for='name') Genre:
       input#name.form-control(type='text', placeholder='Fantasy, Poetry etc.' name='name' value=(undefined===genre ? '' : genre.name))
